@@ -1,0 +1,35 @@
+Algoritmo "QuadradodosNúmeros"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O usuário insere 4 números e o programa retorna o quadrado destes.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 07/10/2020
+Var
+
+ N1, N2, N3, N4: inteiro
+ A, B, C, D: real
+Inicio
+
+   escreval("Digite o primeiro número ")
+       leia(N1)
+   escreval("Digite o segundo número ")
+       leia(N2)
+   escreval("digite o terceiro número ")
+       leia(N3)
+   escreval("Digite o último número ")
+       leia(N4)
+               A <- N1^2
+               B <- N2^2
+               C <- N3^2
+               D <- N4^2
+        se ( C >= 1000) entao
+   escreval("O quadrado de ",N3, " é: ", C)
+      senao
+   escreval("Segue abaixo o quadrado dos números: ")
+   escreval(N1," = ",A)
+   escreval(N2," = ",B)
+   escreval(N3," = ",C)
+   escreval(N4," = ",D)
+      fimse
+
+Fimalgoritmo
