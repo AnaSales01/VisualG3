@@ -1,0 +1,27 @@
+Algoritmo "ProgramaNúmero"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário insere um número e o programa retorna se este é positivo ou negativo, impar ou par.
+// Autor(a)    : Ana Cláudia Correa da Silva
+// Data atual  : 07/10/2020
+Var
+
+N: inteiro
+
+Inicio
+
+   escreval("Olá seja bem-vindo ao programa número!")
+   escreval("Digite um número qualquer (inteiro) ")
+       leia(N)
+        se (N mod 2 = 0) entao
+   escreval("O número ",N," é Par")
+   senao
+   escreval("O número ",N, " é Impar")
+   fimse
+         se(N >= 0) entao
+   escreval(N," é um número Positivo")
+   senao
+   escreval(N," é um número Negativo")
+   fimse
+
+Fimalgoritmo
