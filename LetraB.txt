@@ -1,0 +1,25 @@
+Algoritmo "ProgramaSalário"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O usuário insere as horas trabalhadas e o programa retorna o salário excedente e o salário total.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 08/10/2020
+Var
+
+N,He,Sex,S: real
+
+Inicio
+   escreval("Olá, seja bem-vindo ao programa salário!")
+   escreval("Insira as horas trabalhadas ")
+       leia(N)
+   He <- N-50
+   Sex <- He*20
+   S <- Sex + (50*10)
+         se(N > 50)entao
+   escreval("O SALÁRIO TOTAL É: ",S)
+   escreval("O SALÁRIO EXCEDENTE É: ",Sex)
+   senao
+   escreval("NÃO TEVE HORA EXCEDENTE!")
+   fimse
+
+Fimalgoritmo
