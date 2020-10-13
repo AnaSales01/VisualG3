@@ -1,0 +1,32 @@
+Algoritmo "ProgramaClassificação"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário digita a idade e o programa retorna a classificação do usuário de acordo ocm a idade.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 08/10/2020
+Var
+
+I: inteiro
+
+Inicio
+
+  escreval("Olá, seja bem-vindo(a) ao programa classificação!")
+  escreval("Digite aqui a sua idade! ")
+      leia(I)
+        se(I >=5) e (I<= 7) entao
+  escreval("A sua classificação é INFANTIL A!")
+     fimse
+        se(I >= 8) e (I <= 11) entao
+  escreval("A sua classificação é INFANTIL B!")
+     fimse
+        se(I >= 12) e (I <= 13) entao
+  escreval("A sua classificação é JUVENIL A!")
+     fimse
+        se(I >= 14) e (I <= 17) entao
+  escreval("A sua classificação é JUVENIL B!")
+     fimse
+        se(I >= 18) entao
+  escreval("A sua classificação é ADULTO!")
+     fimse
+
+Fimalgoritmo
