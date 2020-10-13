@@ -1,0 +1,29 @@
+Algoritmo "ProgramaPapodePescador"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O usuário insere o peso do peixe e o programa retorna se pagará multa ou não e se o peso excedeu ou não o limite e o valor da multa por excesso.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 07/10/2020
+Var
+
+P, I, M: real
+
+Inicio
+
+   escreval ("Olá, João! Seja bem-vindo ao Papo de Pescador!!!")
+    escreval("Digite o peso do peixe ")
+        leia(P)
+        I <- P - 50
+          se(I > 0) entao
+    escreval("EXCESSO DE PESO: ",I)
+    senao
+    escreval("NÃO TEM EXCESSO!")
+    fimse
+        M <- I*4
+         se (P > 50) entao
+    escreval("MULTA: R$ ",M)
+    senao
+    escreval("NÃO TEM MULTA!")
+    fimse
+
+Fimalgoritmo
